@@ -3,7 +3,7 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "Termix",
-  description: "Doccumentation",
+  description: "Documentation",
   lastUpdated: true,
   cleanUrls: true,
   metaChunk: true,
@@ -21,13 +21,12 @@ export default defineConfig({
     },
 
     footer: {
-      message: "Distributed under the MIT License",
+      message: "Distributed under the Apache License Version 2.0",
       copyright: "© 2025 Luke Gustafson",
     },
 
     sidebar: [
       {
-        text: 'Examples',
         items: [
           { text: 'Docs', link: '/docs' },
           { text: 'GitHub', link: 'https://github.com/LukeGus/Termix' }
