@@ -1,22 +1,12 @@
 [
   {
-    "id": "welcome-survey-2025-test1",
+    "id": "future-of-termix",
     "title": "The Future of Termix",
-    "message": "Please checkout the linked survey here. The purpose of this survey is to gather feedback from users on what the future UI of Termix could look like to optimize server management. Please take a minute or two to read the survey questions and answer them to the best of your ability. Thank you!\n\nA special thanks to those in Asia who recently joined Termix through various forum posts, keep sharing it! A Chinese translation is planned for Termix, but since I don't speak Chinese, I'll need to hire someone to help with the translation. If you'd like to support me financially, you can do so here.",
+    "message": "Please checkout the linked survey here. The purpose of this survey is to gather feedback from users on what the future UI of Termix could look like to optimize server management. Please take a minute or two to read the survey questions and answer them to the best of your ability. Thank you!",
     "expiresAt": "2025-12-31T23:59:59Z",
     "priority": "medium",
     "type": "info",
     "actionUrl": "https://docs.google.com/forms/d/e/1FAIpQLSeGvnQODFtnpjmJsMKgASbaQ87CLQEBCcnzK_Vuw5TdfbfIyA/viewform?usp=sharing&ouid=107601685503825301492",
     "actionText": "Take Survey"
-  },
-  {
-    "id": "github-sponsors-2025-test2",
-    "title": "Support Termix Development",
-    "message": "If you'd like to support Termix development financially, you can do so through GitHub Sponsors. Your support helps maintain and improve Termix for everyone.",
-    "expiresAt": "2025-12-31T23:59:59Z",
-    "priority": "low",
-    "type": "info",
-    "actionUrl": "https://github.com/sponsors/LukeGus",
-    "actionText": "Support on GitHub"
   }
 ]
