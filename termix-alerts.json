@@ -3,20 +3,9 @@
     "id": "future-of-termix",
     "title": "The Future of Termix",
     "message": "Please checkout the linked survey here. The purpose of this survey is to gather feedback from users on what the future UI of Termix could look like to optimize server management. Please take a minute or two to read the survey questions and answer them to the best of your ability. Thank you!",
-    "expiresAt": "2025-12-31T23:59:59Z",
-    "priority": "medium",
-    "type": "info",
-    "actionUrl": "https://docs.google.com/forms/d/e/1FAIpQLSeGvnQODFtnpjmJsMKgASbaQ87CLQEBCcnzK_Vuw5TdfbfIyA/viewform?usp=sharing&ouid=107601685503825301492",
-    "actionText": "Take Survey"
-  },
-  {
-    "id": "future-of-termix-test-1",
-    "title": "The Future of Meat",
-    "message": "Meaty Please take a minute or two to read the survey questions and answer them to the best of your ability. Thank you!",
-    "expiresAt": "2025-12-31T23:59:59Z",
+    "expiresAt": "2025-08-12T23:46:00Z",
     "priority": "medium",
     "type": "info",
     "actionUrl": "https://docs.google.com/forms/d/e/1FAIpQLSeGvnQODFtnpjmJsMKgASbaQ87CLQEBCcnzK_Vuw5TdfbfIyA/viewform?usp=sharing&ouid=107601685503825301492",
     "actionText": "Take Survey"
   }
-]
