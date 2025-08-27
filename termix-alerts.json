@@ -1,9 +1,9 @@
 [
   {
-    "id": "beta-1.3.0",
-    "title": "v1.3.0 Beta Testing",
-    "message": "Join the Termix Discord using the button below to take part in the v1.3.0 beta test! Once inside, head over to the #beta-testing channel for full details. This update introduces a complete UI redesign based on your survey feedback, and testing will run for about 1–3 days depending on how quickly feedback comes in. After testing, v1.3.0 will become the new standard release. Thank you!",
-    "expiresAt": "2025-08-18T00:00:00Z",
+    "id": "termix-poll-1",
+    "title": "Termix Poll #1",
+    "message": "Thank you to everyone who has joined Termix over the past few weeks—we’ve nearly doubled our GitHub stars, and to make future releases more professional and prioritized, please use the Join Discord button below and visit the #announcements channel to participate in polls that will determine which features are added next.",
+    "expiresAt": "2025-08-31T00:00:00Z",
     "priority": "medium",
     "type": "info",
     "actionUrl": "https://discord.com/invite/jVQGdvHDrf",
