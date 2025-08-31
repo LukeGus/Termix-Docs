@@ -12,20 +12,22 @@
     ```sh
     git clone https://github.com/LukeGus/Termix
     ```
-2. Install the dependencies for the server:
+2. Install the dependencies:
     ```sh
     npm install
     ```
 
 ## Running the development server
 
-Run the following command:
+Run the following commands:
 
 ```sh
 npm run dev
+npx tsc -p tsconfig.node.json
+node ./dist/backend/starter.js
 ```
 
-This will start the Vite server. You can access Termix by going to `http://localhost:5174/`.
+This will start the backend and the frontend Vite server. You can access Termix by going to `http://localhost:5174/`.
 
 ## Contributing
 
@@ -36,7 +38,7 @@ This will start the Vite server. You can access Termix by going to `http://local
     git checkout -b feature/my-new-feature
     ```
 3. **Make your changes**: Implement your feature, fix, or improvement.
-4. **Commit your changes**:
+4. **Commit your changes**: 
     ```sh
     git commit -m "Add feature: my new feature"
     ```
@@ -49,5 +51,6 @@ This will start the Vite server. You can access Termix by going to `http://local
 ## 📝 Guidelines
 
 - Follow the existing code style. Use Tailwind CSS with shadcn components.
+- Place all API routes in the `main-axios.ts` file. Updating the `openapi.json` is unneeded.
 - Include meaningful commit messages.
 - Link related issues when applicable.
