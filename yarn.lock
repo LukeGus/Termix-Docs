@@ -1079,7 +1079,7 @@ vfile@^6.0.0:
   optionalDependencies:
     fsevents "~2.3.3"
 
-vitepress-openapi@^0.1.9:
+vitepress-openapi@latest:
   version "0.1.9"
   resolved "https://registry.npmjs.org/vitepress-openapi/-/vitepress-openapi-0.1.9.tgz"
   integrity sha512-shkpveZWGHqZ4Wxrq0fTG+3N9cm3U+gmdxjT/uE6ok5QqqLwuhM1Y+V5z1e1EsxwXHYXpCoP9qEJp+hHqlMqug==
@@ -1091,7 +1091,7 @@ vitepress-openapi@^0.1.9:
     markdown-it-link-attributes "^4.0.1"
     reka-ui "^2.2.0"
 
-vitepress@^1.6.3, vitepress@>=1.0.0:
+vitepress@>=1.0.0, vitepress@latest:
   version "1.6.3"
   resolved "https://registry.npmjs.org/vitepress/-/vitepress-1.6.3.tgz"
   integrity sha512-fCkfdOk8yRZT8GD9BFqusW3+GggWYZ/rYncOfmgcDtP3ualNHCAg+Robxp2/6xfH1WwPHtGpPwv7mbA3qomtBw==
