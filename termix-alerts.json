@@ -1,0 +1,12 @@
+[
+  {
+    "id": "termix-poll-1",
+    "title": "Termix Poll #1",
+    "message": "Thank you to everyone who has joined Termix over the past few weeks—we’ve nearly doubled our GitHub stars, and to make future releases more professional and prioritized, please use the Join Discord button below and visit the #announcements channel to participate in polls that will determine which features are added next.",
+    "expiresAt": "2025-08-31T00:00:00Z",
+    "priority": "medium",
+    "type": "info",
+    "actionUrl": "https://discord.com/invite/jVQGdvHDrf",
+    "actionText": "Join Discord"
+  }
+]
