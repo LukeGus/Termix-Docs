@@ -13,7 +13,7 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Docs', link: '/docs' }
+      { text: 'Docs', link: '/install' }
     ],
 
     search: {
@@ -28,8 +28,7 @@ export default defineConfig({
     sidebar: [
       {
         items: [
-          { text: 'Docs', link: '/docs' },
-          { text: 'GitHub', link: 'https://github.com/LukeGus/Termix' }
+          { text: 'Docs', link: '/install' },
         ]
       }
     ],

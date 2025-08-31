@@ -1,4 +1,4 @@
-## Installation
+### Installation
 
 Termix can be installed using Docker, Docker Compose, or manually. Choose the method that works best for your environment.
 
@@ -48,6 +48,11 @@ To start the container, run:
 docker-compose up -d
 ```
 
+### Environment Variables
+| Config Name | Variable Name | Default/Note                                                               |
+|-------------|---------------|----------------------------------------------------------------------------|
+| Port        | PORT          | 8080 / Port for the frontend application (no other ports should be opened) |
+
 ### Manual Installation
 
 If you prefer a manual installation, follow these steps:
@@ -91,4 +96,5 @@ Once installed, Termix will be available at `http://localhost:8080` (or whicheve
 
 ## Support
 
+If you need help with Termix, you can join the [Discord](https://discord.gg/jVQGdvHDrf) server and visit the support channel. You can also open an issue or open a pull request on the [GitHub](https://github.com/LukeGus/Termix/issues) repo.
 If you need help with Termix, you can join the [Discord](https://discord.gg/jVQGdvHDrf) server and visit the support channel. You can also open an issue or open a pull request on the [GitHub](https://github.com/LukeGus/Termix/issues) repo.

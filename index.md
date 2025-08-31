@@ -12,7 +12,7 @@ hero:
   actions:
     - theme: brand
       text: Get Started
-      link: /docs
+      link: /install
     - theme: alt
       text: GitHub
       link: 'https://github.com/LukeGus/Termix'
