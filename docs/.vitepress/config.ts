@@ -36,6 +36,7 @@ export default defineConfig({
           {text: 'Installation', link: '/install'},
           {text: 'OIDC', link: '/oidc'},
           {text: 'Tunnels', link: '/tunnels'},
+          {text: 'Contributing', link: '/contributing'},
           {
             text: "API Reference",
             collapsed: true,
