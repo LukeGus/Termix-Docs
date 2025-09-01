@@ -36,6 +36,7 @@ export default defineConfig({
           {text: 'Installation', link: '/install'},
           {text: 'OIDC', link: '/oidc'},
           {text: 'Tunnels', link: '/tunnels'},
+          {text: 'JSON Import', link: '/json-import'},
           {text: 'Contributing', link: '/contributing'},
           {
             text: "API Reference",
