@@ -33,18 +33,39 @@ export default defineConfig({
       {
         text: 'Documentation',
         items: [
-          {text: 'Installation', link: '/install'},
-          {text: 'OIDC', link: '/oidc'},
-          {text: 'Tunnels', link: '/tunnels'},
-          {text: 'JSON Import', link: '/json-import'},
-          {text: 'Contributing', link: '/contributing'},
           {
-            text: "API Reference",
+            text: 'Getting Started',
+            items: [
+              { text: 'Installation', link: '/install' },
+              { text: 'Contributing', link: '/contributing' },
+            ],
+          },
+          {
+            text: 'Authentication',
+            items: [
+              { text: 'OIDC', link: '/oidc' },
+              { text: 'TOTP', link: '/totp' },
+            ],
+          },
+          {
+            text: 'Networking',
+            items: [
+              { text: 'Tunnels', link: '/tunnels' },
+            ],
+          },
+          {
+            text: 'Data',
+            items: [
+              { text: 'JSON Import', link: '/json-import' },
+            ],
+          },
+          {
+            text: 'API Reference',
             collapsed: true,
-            link: "/api-reference",
+            link: '/api-reference',
             items: [...sidebar.generateSidebarGroups()],
           },
-        ]
+        ],
       },
     ],
 
