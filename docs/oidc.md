@@ -71,6 +71,10 @@ Before configuring OIDC, you need:
     - `groups`: Access to user group memberships (if supported)
 - **Example**: `openid email profile groups`
 
+### 9. Override User Info URL
+- **Purpose**: Override the auto-generated User Info URL if you get a `Failed to get user information`
+- **Common values**: `https://your-provider.com/application/o/userinfo/`
+
 ## Step-by-Step Configuration
 
 ### Step 1: Register Your Application
@@ -140,41 +144,10 @@ Before configuring OIDC, you need:
     - Verify the Issuer URL matches your provider's issuer identifier
     - Check for protocol mismatches (http vs https)
 
-### Debug Steps
-
-1. Check the browser's developer console for error messages
-2. Verify all URLs are accessible from your network
-3. Test the OIDC provider's discovery endpoint
-4. Ensure your provider supports the OIDC standard
+5. **"Failed to get user information" error**
+    - Use the `Override User Info URL` field in OIDC configs within Termix. You can find this URL within your providers' config.
 
 ## Advanced Configuration
 
-### Custom Claims Mapping
-If your OIDC provider uses custom claim names, you can map them using the identifier and name path fields:
-
-```json
-// Example ID token with custom claims
-{
-  "sub": "user123",
-  "custom_user_id": "12345",
-  "custom_display_name": "John Doe"
-}
-
-// Configuration
-Identifier Path: custom_user_id
-Display Name Path: custom_display_name
-```
-
 ### Multiple OIDC Providers
 Currently, Termix supports one OIDC provider at a time. To switch providers, update the configuration with the new provider's details.
-
-## Support
-
-If you encounter issues with OIDC configuration:
-
-1. Check this guide for common solutions
-2. Verify your OIDC provider's documentation
-3. Ensure all URLs and credentials are correct
-4. Test with a simple OIDC client first to verify provider configuration
-
-Remember that OIDC configuration is provider-specific, so always refer to your specific provider's documentation for the most accurate information.

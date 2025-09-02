@@ -54,3 +54,7 @@ This will start the backend and the frontend Vite server. You can access Termix 
 - Place all API routes in the `main-axios.ts` file. Updating the `openapi.json` is unneeded.
 - Include meaningful commit messages.
 - Link related issues when applicable.
+
+## Support
+
+If you need help with Termix, you can join the [Discord](https://discord.gg/jVQGdvHDrf) server and visit the support channel. You can also open an issue or open a pull request on the [GitHub](https://github.com/LukeGus/Termix/issues) repo.

@@ -213,3 +213,7 @@ Each tunnel connection has the following configuration fields:
    ```bash
    ssh -R source-port:endpoint-host:endpoint-port username@source-host
    ```
+   
+## Support
+
+If you need help with Termix, you can join the [Discord](https://discord.gg/jVQGdvHDrf) server and visit the support channel. You can also open an issue or open a pull request on the [GitHub](https://github.com/LukeGus/Termix/issues) repo.
