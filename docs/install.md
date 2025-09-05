@@ -77,7 +77,7 @@ npm run build
 
 3. Start the application:
 ```bash
-npm run start
+npm run preview
 ```
 
 ::: tip
