@@ -7,14 +7,16 @@ Use this guide to create JSON files for bulk importing SSH hosts. All examples a
 - **`ip`** - Host IP address (string)
 - **`port`** - SSH port (number, 1-65535)
 - **`username`** - SSH username (string)
-- **`authType`** - "password" or "key"
+- **`authType`** - Authentication type: `"password"`, `"key"`, or `"credential"`
 
 ## Authentication Fields
 
 - **`password`** - Required if authType is "password"
 - **`key`** - SSH private key content (string) if authType is "key"
 - **`keyPassword`** - Optional key passphrase
-- **`keyType`** - Key type (auto, ssh-rsa, ssh-ed25519, etc.)
+- **`keyType`** - Key type: `"auto"`, `"ssh-rsa"`, `"ssh-ed25519"`, `"ecdsa-sha2-nistp256"`, `"ecdsa-sha2-nistp384"`, `"ecdsa-sha2-nistp521"`, `"ssh-dss"`, `"ssh-rsa-sha2-256"`, `"ssh-rsa-sha2-512"`
+- **`credentialId`** - ID of existing credential (number) if `authType` is `"credential"`
+
 
 ## Optional Fields
 
@@ -43,19 +45,60 @@ Use this guide to create JSON files for bulk importing SSH hosts. All examples a
 {
   "hosts": [
     {
-      "name": "Web Server",
+      "name": "Web Server - Production",
       "ip": "192.168.1.100",
       "port": 22,
       "username": "admin",
       "authType": "password",
-      "password": "your_password",
+      "password": "your_secure_password_here",
       "folder": "Production",
-      "tags": ["web", "production"],
+      "tags": ["web", "production", "nginx"],
       "pin": true,
       "enableTerminal": true,
       "enableTunnel": false,
       "enableFileManager": true,
       "defaultPath": "/var/www"
+    },
+    {
+      "name": "Database Server",
+      "ip": "192.168.1.101",
+      "port": 22,
+      "username": "dbadmin",
+      "authType": "key",
+      "key": "-----BEGIN OPENSSH PRIVATE KEY-----\nYour SSH private key content here\n-----END OPENSSH PRIVATE KEY-----",
+      "keyPassword": "optional_key_passphrase",
+      "keyType": "ssh-ed25519",
+      "folder": "Production",
+      "tags": ["database", "production", "postgresql"],
+      "pin": false,
+      "enableTerminal": true,
+      "enableTunnel": true,
+      "enableFileManager": false,
+      "tunnelConnections": [
+        {
+          "sourcePort": 5432,
+          "endpointPort": 5432,
+          "endpointHost": "Web Server - Production",
+          "maxRetries": 3,
+          "retryInterval": 10,
+          "autoStart": true
+        }
+      ]
+    },
+    {
+      "name": "Development Server",
+      "ip": "192.168.1.102",
+      "port": 2222,
+      "username": "developer",
+      "authType": "credential",
+      "credentialId": 1,
+      "folder": "Development",
+      "tags": ["dev", "testing"],
+      "pin": false,
+      "enableTerminal": true,
+      "enableTunnel": false,
+      "enableFileManager": true,
+      "defaultPath": "/home/developer"
     }
   ]
 }
@@ -64,8 +107,10 @@ Use this guide to create JSON files for bulk importing SSH hosts. All examples a
 ## Notes
 
 - Maximum 100 hosts per import
-- File should contain a "hosts" array or be an array of host objects
+- File must contain a "hosts" array or be an array of host objects
 - Use the Download Sample button in the Host Manager to get a complete example file
+- Credential authentication requires existing credentials to be created first before importing
+- Sensitive data (passwords/keys) is excluded from exports
 
 ## Support
 

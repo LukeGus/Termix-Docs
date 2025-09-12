@@ -2,7 +2,7 @@
 
 Termix can be installed using Docker, Docker Compose, or manually. Choose the method that works best for your environment.
 
-### Docker Installation
+## Docker Installation
 
 The simplest way to get Termix up and running is with Docker:
 
@@ -20,7 +20,7 @@ docker run -d \
   ghcr.io/lukegus/termix:latest
 ```
 
-### Docker Compose Installation
+## Docker Compose Installation
 
 For a more comprehensive setup, you can use Docker Compose:
 
@@ -48,20 +48,20 @@ To start the container, run:
 docker-compose up -d
 ```
 
-### Environment Variables
+## Environment Variables
 | Config Name | Variable Name | Default/Note                                                               |
 |-------------|---------------|----------------------------------------------------------------------------|
 | Port        | PORT          | 8080 / Port for the frontend application (no other ports should be opened) |
 
-### Manual Installation
+## Manual Installation
 
 If you prefer a manual installation, follow these steps:
 
-#### Required Packages
+### Required Packages
 - NPM
 - NodeJS
 
-#### Installation Steps
+### Installation Steps
 
 1. Clone the repository:
 ```bash
@@ -86,9 +86,12 @@ For production environments, we recommend running the website via Nginx. See the
 
 4. Start the backend services.
 ```bash
-npx tsc -p tsconfig.node.json 
-node ./dist/backend/starter.js
+npm run dev:backend
 ```
+
+## Pre-built Binaries
+
+You can download a Windows installer/portable and a Linux portable within the latest release at <https://github.com/LukeGus/Termix/releases>. However, this is under development.
 
 ## Usage
 
