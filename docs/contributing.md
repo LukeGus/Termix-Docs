@@ -1,4 +1,4 @@
-_# Contributing
+# Contributing
 
 ## Prerequisites
 
