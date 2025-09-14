@@ -124,6 +124,42 @@ Before configuring OIDC, you need:
 - **Issuer URL**: `https://{your-domain}.okta.com/oauth2/default`
 - **Scopes**: `openid email profile`
 
+### Authelia
+- **Authorization URL**: `https://authelia.{your-domain}/api/oidc/authorization`
+- **Token URL**: `https://authelia.{your-domain}/api/oidc/token`
+- **Issuer URL**: `https://authelia.{your-domain}`
+- **Scopes**: `openid email profile`
+- **Authelia Config**:
+
+```yaml
+identity_providers:
+  oidc:
+    claims_policies:
+      legacy:
+        id_token: ['email', 'email_verified', 'preferred_username', 'name']
+
+    authorization_policies:    
+      termix:
+        default_policy: deny
+        rules:
+          - policy: one_factor
+            subject: group:termix
+
+    clients:
+      - client_id: termix
+        client_secret: client_secret_here
+        public: false
+        authorization_policy: termix
+        consent_mode: implicit
+        claims_policy: legacy
+        scopes: 
+          - openid
+          - profile
+          - email
+        redirect_uris:
+          - https://termix.{your-domain}/users/oidc/callback
+        token_endpoint_auth_method: client_secret_post
+```
 ## Troubleshooting
 
 ### Common Issues
