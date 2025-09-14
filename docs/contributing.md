@@ -26,7 +26,6 @@ npm run dev
 npm run dev:backend
 ```
 
-a
 This will start the backend and the frontend Vite server. You can access Termix by going to `http://localhost:5174/`.
 
 ## Contributing
@@ -48,7 +47,7 @@ This will start the backend and the frontend Vite server. You can access Termix 
     ```
 6. **Open a pull request**: Go to the original repository and create a PR with a clear description.
 
-## 📝 Guidelines
+## Guidelines
 
 - Follow the existing code style. Use Tailwind CSS with shadcn components.
 - Use the below color scheme with the respective CSS variable placed in the `className` of a div/component.

@@ -152,7 +152,7 @@ docker-compose up -d
 
 ## Pre-built Binaries
 
-You can download a Windows installer/portable and a Linux portable within the latest release at <https://github.com/LukeGus/Termix/releases>. However, this is under development.
+You can download a Windows installer/portable and a Linux portable within the latest release at [GitHub releases](https://github.com/LukeGus/Termix/releases). However, this is under development.
 
 ## Usage
 

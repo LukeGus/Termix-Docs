@@ -1,12 +1,12 @@
 [
   {
-    "id": "termix-poll-1",
-    "title": "Termix Poll #1",
-    "message": "Thank you to everyone who has joined Termix over the past few weeks—we’ve nearly doubled our GitHub stars, and to make future releases more professional and prioritized, please use the Join Discord button below and visit the #announcements channel to participate in polls that will determine which features are added next.",
-    "expiresAt": "2025-08-31T00:00:00Z",
+    "id": "desktop-app-1",
+    "title": "Windows/Linux Desktop App Beta Now Available",
+    "message": "We’re excited to announce the beta release of the Termix desktop app for Windows and Linux! This version provides the same features as the web-version Termix and connects directly to your existing Termix Docker container.\n\nYou can choose between:\n- Automatic setup – for a quick installation\n- Portable version – no installation required\n\n Note: This is still under development. Future updates will allow running Termix without a Docker container.\n\nNext up: we’re working on a mobile app and adding many new features to make Termix even more powerful.",
+    "expiresAt": "2025-09-19T00:00:00Z",
     "priority": "medium",
     "type": "info",
-    "actionUrl": "https://discord.com/invite/jVQGdvHDrf",
-    "actionText": "Join Discord"
+    "actionUrl": "https://github.com/LukeGus/Termix/releases",
+    "actionText": "Download"
   }
 ]
