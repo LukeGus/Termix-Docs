@@ -152,6 +152,10 @@ identity_providers:
         authorization_policy: termix
         consent_mode: implicit
         claims_policy: legacy
+        grant_types:
+          - authorization_code
+        response_types:
+          - code
         scopes: 
           - openid
           - profile
