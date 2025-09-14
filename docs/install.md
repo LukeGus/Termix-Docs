@@ -123,7 +123,7 @@ npm run build
 
 4. Build the Docker image:
 ```bash
-docker build -t termix:latest .
+docker build -t termix:latest -f docker/Dockerfile .
 ```
 
 5. Create a Docker Compose file to use your built image:
