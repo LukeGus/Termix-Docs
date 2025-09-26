@@ -83,9 +83,9 @@ volumes:
 
 ## Environment Variables
 
-| Config Name | Variable Name | Default/Note                                                               |
-|-------------|---------------|----------------------------------------------------------------------------|
-| Port        | PORT          | 8080 / Port for the frontend application (no other ports should be opened) |
+| Config Name | Variable Name | Default/Note                                                                                                                                         |
+|-------------|---------------|------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Port        | PORT          | 8080 / Port for the frontend web application. No additional ports should be exposed. Port must not fall within the restricted range `30001–30005`. |
 
 ## Usage
 
