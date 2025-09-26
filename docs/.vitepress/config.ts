@@ -1,12 +1,11 @@
 import { defineConfig } from 'vitepress';
 import { useSidebar } from 'vitepress-openapi'
-import spec from '../public/openapi.json' with { type: 'json' }
 
-const sidebar = useSidebar({
-  spec,
-  // Optionally, you can specify a link prefix for all generated sidebar items.
-  linkPrefix: '/operations/',
-})
+// const sidebar = useSidebar({
+//   spec,
+//   // Optionally, you can specify a link prefix for all generated sidebar items.
+//   linkPrefix: '/operations/',
+// })
 
 // refer https://vitepress.dev/reference/site-config for details
 export default defineConfig({
@@ -36,7 +35,27 @@ export default defineConfig({
           {
             text: 'Getting Started',
             items: [
-              { text: 'Installation', link: '/install' },
+              {
+                text: 'Installation',
+                link: '/install',
+                items: [
+                  {
+                    text: 'Server',
+                    items: [
+                      { text: 'Docker', link: '/install/server/docker' },
+                      { text: 'Manual', link: '/install/server/manual-compile' }
+                    ]
+                  },
+                  {
+                    text: 'Connector',
+                    items: [
+                      { text: 'Windows', link: '/install/connector/windows' },
+                      { text: 'Linux', link: '/install/connector/linux' },
+                      { text: 'Mobile', link: '/install/connector/mobile/' }
+                    ]
+                  }
+                ]
+              },
               { text: 'Contributing', link: '/contributing' },
             ],
           },
@@ -63,7 +82,7 @@ export default defineConfig({
             text: 'API Reference',
             collapsed: true,
             link: '/api-reference',
-            items: [...sidebar.generateSidebarGroups()],
+            items: [],
           },
         ],
       },
