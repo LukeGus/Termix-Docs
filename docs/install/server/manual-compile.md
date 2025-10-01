@@ -9,6 +9,7 @@ If you prefer to manually compile Termix from source, follow these steps.
 - NPM
 - Docker
 - Docker Compose
+- OpenSSL (required at `PATH` variable if using https)
 
 ## Installation Steps
 

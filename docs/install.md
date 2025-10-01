@@ -15,7 +15,8 @@ For running Termix as a client/connector application that connects to the server
 
 - **[Windows](./install/connector/windows)** - Download pre-compiled binaries for Windows systems.
 - **[Linux](./install/connector/linux)** - Download pre-compiled binaries for Linux systems.
-- **[Mobile](./install/connector/mobile)** - Mobile applications for Termix are currently under development.
+- **[iOS](./install/connector/ios)** - Mobile applications for Termix are currently under development.
+- **[Android](./install/connector/android)** - Mobile applications for Termix are currently under development.
 
 ## Support
 

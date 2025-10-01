@@ -83,9 +83,10 @@ volumes:
 
 ## Environment Variables
 
-| Config Name | Variable Name | Default/Note                                                                                                                                         |
-|-------------|---------------|------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Port        | PORT          | 8080 / Port for the frontend web application. No additional ports should be exposed. Port must not fall within the restricted range `30001–30005`. |
+| Config Name | Variable | Default | Note |
+|-------------|----------|---------|------|
+| Port        | `PORT`   | 8080    | Port for the frontend web application. No additional ports should be exposed. Port must not fall within the restricted range `30001–30005`. |
+| Enable SSL  | `Enable_SSL` | false | See [SSL](/ssl) for more information on how to enable SSL encryption. |
 
 ## Usage
 
@@ -93,4 +94,6 @@ Once installed, Termix will be available at `http://localhost:8080` (or whicheve
 
 ## Support
 
-If you need help with Termix, you can join the [Discord](https://discord.gg/jVQGdvHDrf) server and visit the support channel. You can also open an issue or open a pull request on the [GitHub](https://github.com/LukeGus/Termix/issues) repo.
+If you need help with Termix, you can join the [Discord](https://discord.gg/jVQGdvHDrf) server and visit the support
+channel. You can also open an issue or open a pull request on the [GitHub](https://github.com/LukeGus/Termix/issues)
+repo.
