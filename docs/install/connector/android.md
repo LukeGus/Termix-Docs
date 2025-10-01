@@ -1,6 +1,6 @@
 # Android Installation
 
-Mobile installation options will be available in future releases.
+[GitHub Repo](https://github.com/LukeGus/Termix-Mobile)
 
 ## GitHub Releases
 
