@@ -51,7 +51,7 @@ export default defineConfig({
                                         items: [
                                             {text: 'Windows', link: '/install/connector/windows'},
                                             {text: 'Linux', link: '/install/connector/linux'},
-                                            {text: 'iOS', link: '/install/connector/iOS'},
+                                            {text: 'iOS', link: '/install/connector/ios'},
                                             {text: 'Android', link: '/install/connector/android'}
                                         ]
                                     }
