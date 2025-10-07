@@ -8,7 +8,7 @@ This guide only works on iOS devices. iPadOS and macOS are planned to be support
 
 Using your iOS Apple mobile device, visit [this link](https://apps.apple.com/us/app/termix-ssh-companion/id6752672071) or search `Termix - SSH Companion` on the Apple App Store. You can install and open it like you would any other app via the App Store.
 
-Once installed and opened, follow the on-screen guide to connect to your existing Termix instance.
+Once installed and opened, follow the on-screen guide to connect to your existing Termix instance. If you enjoy the app, consider leaving an honest review so the app shows up higher in the serach results.
 
 ## Support
 
