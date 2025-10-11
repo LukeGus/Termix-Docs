@@ -1,3 +1,9 @@
+# Repo Stats
+
+![GitHub Repo stars](https://img.shields.io/github/stars/Termix-SSH/Docs?style=flat&label=Stars)
+![GitHub forks](https://img.shields.io/github/forks/Termix-SSH/Docs?style=flat&label=Forks)
+<a href="https://discord.gg/jVQGdvHDrf"><img alt="Discord" src="https://img.shields.io/discord/1347374268253470720"></a>
+
 # Overview
 This is the public documentation website for the project, [Termix](https://github.com/LukeGus/Termix).
 
