@@ -4,6 +4,15 @@
 ![GitHub forks](https://img.shields.io/github/forks/Termix-SSH/Docs?style=flat&label=Forks)
 <a href="https://discord.gg/jVQGdvHDrf"><img alt="Discord" src="https://img.shields.io/discord/1347374268253470720"></a>
 
+#### Top Technologies
+
+[![GitHub Pages Badge](https://img.shields.io/badge/-GitHub%20Pages-222222?style=flat-square&labelColor=black&logo=githubpages&logoColor=white)](#)
+[![VitePress Badge](https://img.shields.io/badge/-VitePress-3C7FFF?style=flat-square&labelColor=black&logo=vitepress&logoColor=3C7FFF)](#)
+[![Markdown Badge](https://img.shields.io/badge/-Markdown-000000?style=flat-square&labelColor=black&logo=markdown&logoColor=white)](#)
+
+If you would like, you can support the project here!\
+[![GitHub Sponsor](https://img.shields.io/badge/Sponsor-LukeGus-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sponsors/LukeGus)
+
 # Overview
 This is the public documentation website for the project, [Termix](https://github.com/LukeGus/Termix).
 
