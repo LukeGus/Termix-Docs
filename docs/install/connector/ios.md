@@ -1,6 +1,6 @@
 # iOS Installation
 
-[GitHub Repo](https://github.com/LukeGus/Termix-Mobile)
+[GitHub Repo](https://github.com/Termix-SSH/Mobile)
 
 ## Official Apple App Store
 
@@ -12,4 +12,6 @@ Once installed and opened, follow the on-screen guide to connect to your existin
 
 ## Support
 
-If you need help with Termix, you can join the [Discord](https://discord.gg/jVQGdvHDrf) server and visit the support channel. You can also open an issue or open a pull request on the [GitHub](https://github.com/LukeGus/Termix/issues) repo.
+If you need help or want to request a feature with Termix, visit the [Issues](https://github.com/Termix-SSH/Support/issues) page, log in, and press `New Issue`.
+Please be as detailed as possible in your issue, preferably written in English. You can also join the [Discord](https://discord.gg/jVQGdvHDrf) server and visit the support
+channel, however, response times may be longer.

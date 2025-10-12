@@ -91,7 +91,7 @@ export default defineConfig({
         ],
 
         socialLinks: [
-            {icon: 'github', link: 'https://github.com/LukeGus/Termix'},
+            {icon: 'github', link: 'https://github.com/Termix-SSH/Termix'},
             {icon: "discord", link: "https://discord.gg/jVQGdvHDrf"},
         ]
     },

@@ -14,7 +14,7 @@ If you would like, you can support the project here!\
 [![GitHub Sponsor](https://img.shields.io/badge/Sponsor-LukeGus-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sponsors/LukeGus)
 
 # Overview
-This is the public documentation website for the project, [Termix](https://github.com/LukeGus/Termix).
+This is the public documentation website for the project, [Termix](https://github.com/Termix-SSH/Termix).
 
 # Support
 

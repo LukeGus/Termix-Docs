@@ -15,5 +15,5 @@ hero:
       link: /install
     - theme: alt
       text: GitHub
-      link: 'https://github.com/LukeGus/Termix'
+      link: 'https://github.com/Termix-SSH/Termix'
 ---

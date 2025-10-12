@@ -4,12 +4,12 @@ Download pre-compiled binaries for Linux from the latest release.
 
 ## Download
 
-You can download Linux portable binaries from the [GitHub releases](https://github.com/LukeGus/Termix/releases) page.
+You can download Linux portable binaries from the [GitHub releases](https://github.com/Termix-SSH/Termix/releases) page.
 
 ## Installation
 
 ### Portable Version
-1. Download and extract the Linux portable binary (Termix-Linux-Portable-x.x.x.zip) from the latest [release](https://github.com/LukeGus/Termix/releases)
+1. Download and extract the Linux portable binary (Termix-Linux-Portable-x.x.x.zip) from the latest [release](https://github.com/Termix-SSH/Termix/releases)
 2. Make the binary executable:
    ```bash
    chmod +x termix
@@ -35,4 +35,6 @@ You can also install Termix system-wide:
 
 ## Support
 
-If you need help with Termix, you can join the [Discord](https://discord.gg/jVQGdvHDrf) server and visit the support channel. You can also open an issue or open a pull request on the [GitHub](https://github.com/LukeGus/Termix/issues) repo.
+If you need help or want to request a feature with Termix, visit the [Issues](https://github.com/Termix-SSH/Support/issues) page, log in, and press `New Issue`.
+Please be as detailed as possible in your issue, preferably written in English. You can also join the [Discord](https://discord.gg/jVQGdvHDrf) server and visit the support
+channel, however, response times may be longer.
