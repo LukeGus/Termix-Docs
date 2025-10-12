@@ -16,6 +16,16 @@
     ```sh
     npm install
     ```
+   
+## Running the development server
+
+Run the following commands:
+
+```sh
+npm run docs:dev
+```
+
+This will start the frontend server. You can access Docs by going to `http://localhost:5173/`.
 
 ## Contributing
 
