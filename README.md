@@ -16,6 +16,10 @@ If you would like, you can support the project here!\
 # Overview
 This is the public documentation website for the project, [Termix](https://github.com/Termix-SSH/Termix).
 
+# Planned Features
+
+See [Projects](https://github.com/orgs/Termix-SSH/projects/2) for all planned features. If you are looking to contribute, see [Contributing](https://github.com/Termix-SSH/Docs/blob/main/CONTRIBUTING.md).
+
 # Support
 
 If you need help or want to report an issue with the Termix documentation, visit the [Support](https://github.com/Termix-SSH/Support/issues) page, log in, and press `New Issue`.
