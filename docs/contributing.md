@@ -19,7 +19,7 @@
    
 ## Running the development server
 
-Run the following commands:
+Run the following command:
 
 ```sh
 npm run docs:dev
