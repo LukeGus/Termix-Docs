@@ -81,6 +81,11 @@ volumes:
     driver: local 
 ```
 
+## Specific Version
+To download a specific Docker image, you can visit [GitHub](https://github.com/users/LukeGus/packages/container/package/termix) and replace your Docker tag with one of those.
+
+You can also replace `:latest` in your docker run/compose with `:version.x.x.x` and change `x.x.x` to the version you would like to install.
+
 ## Environment Variables
 
 | Config Name | Variable | Default | Note |
