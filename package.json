@@ -6,6 +6,7 @@
     "docs:preview": "vitepress preview docs"
   },
   "dependencies": {
+    "commitlint": "^20.1.0",
     "node": "^22.15.0",
     "vitepress-openapi": "latest",
     "yarn": "^1.22.22"
