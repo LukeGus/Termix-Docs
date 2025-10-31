@@ -124,6 +124,12 @@ Before configuring OIDC, you need:
 - **Issuer URL**: `https://{your-domain}.okta.com/oauth2/default`
 - **Scopes**: `openid email profile`
 
+### Keycloak
+- **Authorization URL**: `https://{your-keycloak.domain}/realms/{your_realm_name}/protocol/openid-connect/auth`
+- **Token URL**: `https://{your-keycloak.domain}/realms/{your_realm_name}/protocol/openid-connect/token`
+- **Issuer URL**: `https://{your-keycloak-domain}/realms/{your_realm_name}`
+- **Scopes**: `openid email profile`
+
 ### Authelia
 - **Authorization URL**: `https://authelia.{your-domain}/api/oidc/authorization`
 - **Token URL**: `https://authelia.{your-domain}/api/oidc/token`
