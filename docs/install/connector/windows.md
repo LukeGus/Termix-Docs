@@ -10,14 +10,14 @@ FILL IN LATER
 
 Click on the download link below for your specific device architecture and desired installation type.
 
-| Architecture | Type     | Download Link                                                                                                  |
-| ------------ | -------- | -------------------------------------------------------------------------------------------------------------- |
-| x64          | NSIS     | [Download](https://github.com/Termix-SSH/Termix/releases/latest/download/termix_windows_x64_nsis.exe)         |
-| x64          | MSI      | [Download](https://github.com/Termix-SSH/Termix/releases/latest/download/termix_windows_x64_msi.msi)          |
-| x64          | Portable | [Download](https://github.com/Termix-SSH/Termix/releases/latest/download/termix_windows_x64_portable.zip)     |
-| ia32         | NSIS     | [Download](https://github.com/Termix-SSH/Termix/releases/latest/download/termix_windows_ia32_nsis.exe)        |
-| ia32         | MSI      | [Download](https://github.com/Termix-SSH/Termix/releases/latest/download/termix_windows_ia32_msi.msi)         |
-| ia32         | Portable | [Download](https://github.com/Termix-SSH/Termix/releases/latest/download/termix_windows_ia32_portable.zip)    |
+| Architecture | Type     | Download Link                                                                                              |
+| ------------ | -------- | ---------------------------------------------------------------------------------------------------------- |
+| x64          | NSIS     | [Download](https://github.com/Termix-SSH/Termix/releases/latest/download/termix_windows_x64_nsis.exe)      |
+| x64          | MSI      | [Download](https://github.com/Termix-SSH/Termix/releases/latest/download/termix_windows_x64_msi.msi)       |
+| x64          | Portable | [Download](https://github.com/Termix-SSH/Termix/releases/latest/download/termix_windows_x64_portable.zip)  |
+| ia32         | NSIS     | [Download](https://github.com/Termix-SSH/Termix/releases/latest/download/termix_windows_ia32_nsis.exe)     |
+| ia32         | MSI      | [Download](https://github.com/Termix-SSH/Termix/releases/latest/download/termix_windows_ia32_msi.msi)      |
+| ia32         | Portable | [Download](https://github.com/Termix-SSH/Termix/releases/latest/download/termix_windows_ia32_portable.zip) |
 
 ## Support
 
