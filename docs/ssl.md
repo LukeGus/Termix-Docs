@@ -8,18 +8,18 @@ Using self-signed certificates as shown below will result in a browser security 
 
 ### SSL Configuration Variables
 
-| Variable        | Default                    | Description                                                     |
-|-----------------|----------------------------|-----------------------------------------------------------------|
-| `ENABLE_SSL`    | `false`                    | Enable/disable SSL/TLS encryption                               |
-| `SSL_PORT`      | `8443`                     | Port for HTTPS connections                                      |
-| `SSL_DOMAIN`    | `localhost`                | Domain name for SSL certificate                                 |
-| `SSL_CERT_PATH` | `/app/data/ssl/termix.crt` | Path to SSL certificate file (highly recommend default)         |
-| `SSL_KEY_PATH`  | `/app/data/ssl/termix.key` | Path to SSL private key file (highly recommend default)         |
+| Variable        | Default                    | Description                                             |
+| --------------- | -------------------------- | ------------------------------------------------------- |
+| `ENABLE_SSL`    | `false`                    | Enable/disable SSL/TLS encryption                       |
+| `SSL_PORT`      | `8443`                     | Port for HTTPS connections                              |
+| `SSL_DOMAIN`    | `localhost`                | Domain name for SSL certificate                         |
+| `SSL_CERT_PATH` | `/app/data/ssl/termix.crt` | Path to SSL certificate file (highly recommend default) |
+| `SSL_KEY_PATH`  | `/app/data/ssl/termix.key` | Path to SSL private key file (highly recommend default) |
 
 ### Security Variables
 
 | Variable       | Default        | Description                      |
-|----------------|----------------|----------------------------------|
+| -------------- | -------------- | -------------------------------- |
 | `JWT_SECRET`   | Auto-generated | Secret key for JWT token signing |
 | `DATABASE_KEY` | Auto-generated | Encryption key for database      |
 

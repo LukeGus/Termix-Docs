@@ -37,7 +37,7 @@ services:
 
 volumes:
   termix-data:
-    driver: local 
+    driver: local
 ```
 
 To start the container, run:
@@ -51,7 +51,6 @@ docker-compose up -d
 As an alternative to GHCR, you can also use the Docker Hub mirror:
 
 ```bash
-# Using Docker Hub mirror
 docker run -d \
   --name termix \
   --restart unless-stopped \
@@ -78,20 +77,21 @@ services:
 
 volumes:
   termix-data:
-    driver: local 
+    driver: local
 ```
 
 ## Specific Version
-To download a specific Docker image, you can visit [GitHub](https://github.com/users/LukeGus/packages/container/package/termix) and replace your Docker tag with one of those.
 
-You can also replace `:latest` in your docker run/compose with `:version.x.x.x` and change `x.x.x` to the version you would like to install.
+To download a specific Docker image, you can visit [GitHub](https://github.com/users/LukeGus/packages/container/package/termix) and replace your Docker tag with one of items listed in the table.
+
+You can also replace `:latest` in your docker run/compose with `:version.x.x.x` and change `x.x.x` to the version you would like to install. See a list of all versions [here](https://github.com/Termix-SSH/Termix/releases).
 
 ## Environment Variables
 
-| Config Name | Variable | Default | Note |
-|-------------|----------|---------|------|
-| Port        | `PORT`   | 8080    | Port for the frontend web application. No additional ports should be exposed. Port must not fall within the restricted range `30001–30005`. |
-| Enable SSL  | `Enable_SSL` | false | See [SSL](/ssl) for more information on how to enable SSL encryption. |
+| Config Name | Variable     | Default | Note                                                                                                                                        |
+| ----------- | ------------ | ------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
+| Port        | `PORT`       | 8080    | Port for the frontend web application. No additional ports should be exposed. Port must not fall within the restricted range `30001–30005`. |
+| Enable SSL  | `Enable_SSL` | false   | See [SSL](/ssl) for more information on how to enable SSL encryption.                                                                       |
 
 ## Usage
 

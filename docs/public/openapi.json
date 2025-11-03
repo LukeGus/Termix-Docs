@@ -102,7 +102,10 @@
           "enableTunnel": { "type": "boolean" },
           "enableFileManager": { "type": "boolean" },
           "defaultPath": { "type": "string" },
-          "tunnelConnections": { "type": "array", "items": { "type": "object" } },
+          "tunnelConnections": {
+            "type": "array",
+            "items": { "type": "object" }
+          },
           "createdAt": { "type": "string", "format": "date-time" },
           "updatedAt": { "type": "string", "format": "date-time" }
         },
@@ -127,7 +130,10 @@
           "enableTunnel": { "type": "boolean" },
           "enableFileManager": { "type": "boolean" },
           "defaultPath": { "type": "string" },
-          "tunnelConnections": { "type": "array", "items": { "type": "object" } }
+          "tunnelConnections": {
+            "type": "array",
+            "items": { "type": "object" }
+          }
         },
         "required": ["ip", "port", "username", "authType"]
       },
@@ -159,7 +165,18 @@
           "autoStart": { "type": "boolean" },
           "isPinned": { "type": "boolean" }
         },
-        "required": ["name", "hostName", "sourceIP", "sourceSSHPort", "sourceUsername", "endpointIP", "endpointSSHPort", "endpointUsername", "sourcePort", "endpointPort"]
+        "required": [
+          "name",
+          "hostName",
+          "sourceIP",
+          "sourceSSHPort",
+          "sourceUsername",
+          "endpointIP",
+          "endpointSSHPort",
+          "endpointUsername",
+          "sourcePort",
+          "endpointPort"
+        ]
       },
       "TunnelStatus": {
         "type": "object",
@@ -188,7 +205,12 @@
             "properties": {
               "percent": { "type": "number" },
               "cores": { "type": "number" },
-              "load": { "type": "array", "items": { "type": "number" }, "minItems": 3, "maxItems": 3 }
+              "load": {
+                "type": "array",
+                "items": { "type": "number" },
+                "minItems": 3,
+                "maxItems": 3
+              }
             }
           },
           "memory": {
@@ -383,7 +405,10 @@
                 "schema": {
                   "type": "object",
                   "properties": {
-                    "status": { "type": "string", "enum": ["up_to_date", "requires_update"] },
+                    "status": {
+                      "type": "string",
+                      "enum": ["up_to_date", "requires_update"]
+                    },
                     "version": { "type": "string" },
                     "latest_release": {
                       "type": "object",
@@ -1263,7 +1288,10 @@
                     "properties": {
                       "name": { "type": "string" },
                       "path": { "type": "string" },
-                      "type": { "type": "string", "enum": ["file", "directory"] },
+                      "type": {
+                        "type": "string",
+                        "enum": ["file", "directory"]
+                      },
                       "size": { "type": "number" },
                       "modified": { "type": "string" },
                       "permissions": { "type": "string" }
@@ -1524,7 +1552,9 @@
               "application/json": {
                 "schema": {
                   "type": "object",
-                  "additionalProperties": { "$ref": "#/components/schemas/TunnelStatus" }
+                  "additionalProperties": {
+                    "$ref": "#/components/schemas/TunnelStatus"
+                  }
                 }
               }
             }
@@ -1673,7 +1703,9 @@
               "application/json": {
                 "schema": {
                   "type": "object",
-                  "additionalProperties": { "$ref": "#/components/schemas/ServerStatus" }
+                  "additionalProperties": {
+                    "$ref": "#/components/schemas/ServerStatus"
+                  }
                 }
               }
             }
@@ -2163,8 +2195,14 @@
                       "title": { "type": "string" },
                       "message": { "type": "string" },
                       "expiresAt": { "type": "string" },
-                      "priority": { "type": "string", "enum": ["low", "medium", "high", "critical"] },
-                      "type": { "type": "string", "enum": ["info", "warning", "error", "success"] },
+                      "priority": {
+                        "type": "string",
+                        "enum": ["low", "medium", "high", "critical"]
+                      },
+                      "type": {
+                        "type": "string",
+                        "enum": ["info", "warning", "error", "success"]
+                      },
                       "actionUrl": { "type": "string" },
                       "actionText": { "type": "string" }
                     }
@@ -2204,8 +2242,14 @@
                           "title": { "type": "string" },
                           "message": { "type": "string" },
                           "expiresAt": { "type": "string" },
-                          "priority": { "type": "string", "enum": ["low", "medium", "high", "critical"] },
-                          "type": { "type": "string", "enum": ["info", "warning", "error", "success"] },
+                          "priority": {
+                            "type": "string",
+                            "enum": ["low", "medium", "high", "critical"]
+                          },
+                          "type": {
+                            "type": "string",
+                            "enum": ["info", "warning", "error", "success"]
+                          },
                           "actionUrl": { "type": "string" },
                           "actionText": { "type": "string" }
                         }

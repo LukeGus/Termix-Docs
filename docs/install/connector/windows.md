@@ -1,22 +1,23 @@
-# Windows Connector
+# Linux Installation
 
-Download pre-compiled binaries for Windows from the latest release.
+## Installation Methods
 
-## Download
+### Chocolatey
 
-You can download Windows installer/portable binaries from the [GitHub releases](https://github.com/Termix-SSH/Termix/releases) page.
+FILL IN LATER
 
-## Installation
+### GitHub Releases
 
-### Windows Installer
-1. Download the `Termix-Windows-Setup-x.x.x.exe` installer from the latest [release](https://github.com/Termix-SSH/Termix/releases)
-2. Run the installer and follow the setup wizard
-3. Launch Termix from the Start menu or desktop shortcut
+Click on the download link below for your specific device architecture and desired installation type.
 
-### Portable Version
-1. Download the portable `Termix-Windows-Portable-x.x.x.zip` file from the [release](https://github.com/Termix-SSH/Termix/releases)
-2. Extract the files to your desired location
-3. Run `Termix.exe` to start the application
+| Architecture | Type     | Download Link                                                                                                  |
+| ------------ | -------- | -------------------------------------------------------------------------------------------------------------- |
+| x64          | NSIS     | [Download](https://github.com/Termix-SSH/Termix/releases/latest/download/termix_windows_x64_nsis.exe)         |
+| x64          | MSI      | [Download](https://github.com/Termix-SSH/Termix/releases/latest/download/termix_windows_x64_msi.msi)          |
+| x64          | Portable | [Download](https://github.com/Termix-SSH/Termix/releases/latest/download/termix_windows_x64_portable.zip)     |
+| ia32         | NSIS     | [Download](https://github.com/Termix-SSH/Termix/releases/latest/download/termix_windows_ia32_nsis.exe)        |
+| ia32         | MSI      | [Download](https://github.com/Termix-SSH/Termix/releases/latest/download/termix_windows_ia32_msi.msi)         |
+| ia32         | Portable | [Download](https://github.com/Termix-SSH/Termix/releases/latest/download/termix_windows_ia32_portable.zip)    |
 
 ## Support
 

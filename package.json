@@ -8,6 +8,7 @@
   "dependencies": {
     "commitlint": "^20.1.0",
     "node": "^22.15.0",
+    "prettier": "^3.6.2",
     "vitepress-openapi": "latest",
     "yarn": "^1.22.22"
   },

@@ -2,7 +2,7 @@
   {
     "id": "desktop-mobile-app-1",
     "title": "Desktop/Mobile App Now Available",
-    "message": "I'm excited to announce the arrival of a Desktop (Linux/Windows) and Mobile (iOS/Android) app! Use the button below to open the documentation to install on either platform. Both apps simply connect to your existing Docker container via IP/domain, allowing you to manage them from a different platform. Currently, macOS and iPadOS are not supported; however, they are planned.",    
+    "message": "I'm excited to announce the arrival of a Desktop (Linux/Windows) and Mobile (iOS/Android) app! Use the button below to open the documentation to install on either platform. Both apps simply connect to your existing Docker container via IP/domain, allowing you to manage them from a different platform. Currently, macOS and iPadOS are not supported; however, they are planned.",
     "expiresAt": "2025-10-31T00:00:00Z",
     "priority": "medium",
     "type": "info",

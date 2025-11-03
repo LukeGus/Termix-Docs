@@ -1,37 +1,26 @@
-# Linux Connector
+# Linux Installation
 
-Download pre-compiled binaries for Linux from the latest release.
+## Installation Methods
 
-## Download
+### Flatpak
 
-You can download Linux portable binaries from the [GitHub releases](https://github.com/Termix-SSH/Termix/releases) page.
+FILL IN LATER
 
-## Installation
+### GitHub Releases
 
-### Portable Version
-1. Download and extract the Linux portable binary (Termix-Linux-Portable-x.x.x.zip) from the latest [release](https://github.com/Termix-SSH/Termix/releases)
-2. Make the binary executable:
-   ```bash
-   chmod +x termix
-   ```
-3. Run the application:
-   ```bash
-   ./termix
-   ```
+Click on the download link below for your specific device architecture and desired installation type.
 
-### System Installation (Optional)
-You can also install Termix system-wide:
-
-1. Download the Linux binary
-2. Move it to `/usr/local/bin/`:
-   ```bash
-   sudo mv termix /usr/local/bin/termix
-   sudo chmod +x /usr/local/bin/termix
-   ```
-3. Run from anywhere:
-   ```bash
-   termix
-   ```
+| Architecture | Type     | Download Link                                                                                                  |
+| ------------ | -------- | -------------------------------------------------------------------------------------------------------------- |
+| x64          | AppImage | [Download](https://github.com/Termix-SSH/Termix/releases/latest/download/termix_linux_x64_appimage.AppImage)  |
+| x64          | DEB      | [Download](https://github.com/Termix-SSH/Termix/releases/latest/download/termix_linux_x64_deb.deb)            |
+| x64          | Portable | [Download](https://github.com/Termix-SSH/Termix/releases/latest/download/termix_linux_x64_portable.tar.gz)    |
+| arm64        | AppImage | [Download](https://github.com/Termix-SSH/Termix/releases/latest/download/termix_linux_arm64_appimage.AppImage)|
+| arm64        | DEB      | [Download](https://github.com/Termix-SSH/Termix/releases/latest/download/termix_linux_arm64_deb.deb)          |
+| arm64        | Portable | [Download](https://github.com/Termix-SSH/Termix/releases/latest/download/termix_linux_arm64_portable.tar.gz)  |
+| armv7l       | AppImage | [Download](https://github.com/Termix-SSH/Termix/releases/latest/download/termix_linux_armv7l_appimage.AppImage)|
+| armv7l       | DEB      | [Download](https://github.com/Termix-SSH/Termix/releases/latest/download/termix_linux_armv7l_deb.deb)         |
+| armv7l       | Portable | [Download](https://github.com/Termix-SSH/Termix/releases/latest/download/termix_linux_armv7l_portable.tar.gz) |
 
 ## Support
 
