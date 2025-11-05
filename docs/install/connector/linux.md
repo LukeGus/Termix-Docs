@@ -4,7 +4,7 @@
 
 ### Flatpak
 
-FILL IN LATER
+Coming within a week.
 
 ### GitHub Releases
 
@@ -21,6 +21,20 @@ Click on the download link below for your specific device architecture and desir
 | armv7l       | AppImage | [Download](https://github.com/Termix-SSH/Termix/releases/latest/download/termix_linux_armv7l_appimage.AppImage) |
 | armv7l       | DEB      | [Download](https://github.com/Termix-SSH/Termix/releases/latest/download/termix_linux_armv7l_deb.deb)           |
 | armv7l       | Portable | [Download](https://github.com/Termix-SSH/Termix/releases/latest/download/termix_linux_armv7l_portable.tar.gz)   |
+
+If you’re using an executable version of Termix, run the following commands in the executable’s folder to set the correct permissions:
+
+```
+chmod +x termix
+sudo chown root:root chrome-sandbox
+sudo chmod 4755 chrome-sandbox
+```
+
+To start the app, run:
+
+`./termix --no-sandbox`
+
+Do not start it with `sudo`.
 
 ## Support
 

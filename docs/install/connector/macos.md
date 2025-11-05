@@ -4,11 +4,11 @@
 
 ### Apple App Store
 
-Using your macOS device, visit [this link](https://apps.apple.com/us/app/termix-ssh-companion/id6752672071) or search `Termix - SSH Companion` on the Apple App Store. You can install and open it like you would any other app via the App Store.
+Coming within a week.
 
 ### Homebrew
 
-FILL IN LATER
+Coming within a week.
 
 ### GitHub Releases
 
