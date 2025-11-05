@@ -17,7 +17,6 @@ Use this guide to create JSON files for bulk importing SSH hosts. All examples a
 - **`keyType`** - Key type: `"auto"`, `"ssh-rsa"`, `"ssh-ed25519"`, `"ecdsa-sha2-nistp256"`, `"ecdsa-sha2-nistp384"`, `"ecdsa-sha2-nistp521"`, `"ssh-dss"`, `"ssh-rsa-sha2-256"`, `"ssh-rsa-sha2-512"`
 - **`credentialId`** - ID of existing credential (number) if `authType` is `"credential"`
 
-
 ## Optional Fields
 
 - **`name`** - Display name (string)
@@ -32,12 +31,12 @@ Use this guide to create JSON files for bulk importing SSH hosts. All examples a
 ## Tunnel Configuration
 
 - **`tunnelConnections`** - Array of tunnel objects
-    - **`sourcePort`** - Local port (number)
-    - **`endpointPort`** - Remote port (number)
-    - **`endpointHost`** - Target host name (string)
-    - **`maxRetries`** - Retry attempts (number, default: 3)
-    - **`retryInterval`** - Retry delay in seconds (number, default: 10)
-    - **`autoStart`** - Auto-start on launch (boolean, default: false)
+  - **`sourcePort`** - Local port (number)
+  - **`endpointPort`** - Remote port (number)
+  - **`endpointHost`** - Target host name (string)
+  - **`maxRetries`** - Retry attempts (number, default: 3)
+  - **`retryInterval`** - Retry delay in seconds (number, default: 10)
+  - **`autoStart`** - Auto-start on launch (boolean, default: false)
 
 ## Example JSON Structure
 

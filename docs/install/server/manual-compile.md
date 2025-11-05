@@ -14,18 +14,21 @@ If you prefer to manually compile Termix from source, follow these steps.
 ## Installation Steps
 
 1. Clone the repository:
+
 ```bash
 git clone https://github.com/Termix-SSH/Termix.git
 cd Termix
 ```
 
 2. Install dependencies and build the project:
+
 ```bash
 npm install
 npm run build
 ```
 
 3. Start the application:
+
 ```bash
 npm run preview
 ```
@@ -35,6 +38,7 @@ For production environments, we recommend running the website via Nginx. See the
 :::
 
 4. Start the backend services:
+
 ```bash
 npm run dev:backend
 ```
@@ -46,27 +50,32 @@ If you want to build Termix from source and create your own Docker image, follow
 ### Build Steps
 
 1. Clone the repository:
+
 ```bash
 git clone https://github.com/Termix-SSH/Termix.git
 cd Termix
 ```
 
 2. Install dependencies:
+
 ```bash
 npm install
 ```
 
 3. Build the frontend:
+
 ```bash
 npm run build
 ```
 
 4. Build the Docker image:
+
 ```bash
 docker build -t termix:latest -f docker/Dockerfile .
 ```
 
 5. Create a Docker Compose file to use your built image:
+
 ```yaml
 services:
   termix:
@@ -86,6 +95,7 @@ volumes:
 ```
 
 6. Start the container:
+
 ```bash
 docker-compose up -d
 ```

@@ -14,6 +14,7 @@ If you would like, you can support the project here!\
 [![GitHub Sponsor](https://img.shields.io/badge/Sponsor-LukeGus-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sponsors/LukeGus)
 
 # Overview
+
 This is the public documentation website for the project, [Termix](https://github.com/Termix-SSH/Termix).
 
 # Planned Features
@@ -27,4 +28,5 @@ Please be as detailed as possible in your report, preferably written in English.
 channel, however, response times may be longer.
 
 # License
+
 Distributed under the Apache License Version 2.0. See LICENSE for more information.

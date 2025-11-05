@@ -11,7 +11,7 @@ Before setting up 2FA, ensure you have:
 - A smartphone or device with an authenticator app installed
 - A local username and password account, TOTP cannot be used with OIDC.
 
-## Recommended Authenticator Appsx
+## Recommended Authenticator Apps
 
 - **Google Authenticator** (iOS/Android)
 - **Microsoft Authenticator** (iOS/Android)
@@ -72,8 +72,8 @@ Before setting up 2FA, ensure you have:
 1. Go to the **Security** tab
 2. Click on **"Disable 2FA"**
 3. Enter either:
-    - Your account password, OR
-    - A valid TOTP code from your authenticator app
+   - Your account password, OR
+   - A valid TOTP code from your authenticator app
 4. Click **"Disable Two-Factor Authentication"**
 
 ### Managing Backup Codes
@@ -99,6 +99,7 @@ If you've lost your existing backup codes:
 ### What Are Backup Codes?
 
 Backup codes are one-time use codes that allow you to access your account if you:
+
 - Lose your authenticator device
 - Can't access your authenticator app
 

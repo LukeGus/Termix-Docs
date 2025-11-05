@@ -9,14 +9,14 @@
 ## Installation
 
 1. Clone the repository:
-    ```sh
-    git clone https://github.com/Termix-SSH/Docs
-    ```
+   ```sh
+   git clone https://github.com/Termix-SSH/Docs
+   ```
 2. Install the dependencies:
-    ```sh
-    npm install
-    ```
-   
+   ```sh
+   npm install
+   ```
+
 ## Running the development server
 
 Run the following command:
@@ -32,18 +32,18 @@ This will start the frontend server. You can access Docs by going to `http://loc
 1. **Fork the repository**: Click the "Fork" button at the top right of
    the [repository page](https://github.com/Termix-SSH/Termix).
 2. **Create a new branch**:
-    ```sh
-    git checkout -b feature/my-new-feature
-    ```
+   ```sh
+   git checkout -b feature/my-new-feature
+   ```
 3. **Make your changes**: Implement your feature, fix, or improvement.
 4. **Commit your changes**:
-    ```sh
-    git commit -m "Feature request my new feature"
-    ```
+   ```sh
+   git commit -m "Feature request my new feature"
+   ```
 5. **Push to your fork**:
-    ```sh
-    git push origin feature/my-feature-request
-    ```
+   ```sh
+   git push origin feature/my-feature-request
+   ```
 6. **Open a pull request**: Go to the original repository and create a PR with a clear description.
 
 ## Support

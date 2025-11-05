@@ -2,12 +2,17 @@
 
 [GitHub Repo](https://github.com/Termix-SSH/Mobile)
 
-## GitHub Releases
+## Installation Methods
 
-Currently, I do not have a way to publish apps on the official Google Play Store, so you will have to manually install it and update by re-installing it completely.
+### Google Play Store (Recommended)
 
-Please download the `.apk` file from the [latest release](https://github.com/Termix-SSH/Mobile/releases). You must be logged into GitHub to download it. Once in GitHubm, click on the blue link in the latest release that looks like the image below to download:
-![img.png](../../images/android-github-install.webp)
+Using your Android device, visit [this link](https://play.google.com/store/apps/details?id=com.karmaa.termix) or search `Termix - SSH Companion` on the Google Play Store. You can install and open it like you would any other app via the Play Store.
+
+Once installed and opened, follow the on-screen guide to connect to your existing Termix instance. If you enjoy the app, consider leaving an honest review so the app shows up higher in the search results.
+
+### GitHub Releases
+
+Click on [this link](https://github.com/Termix-SSH/Termix/releases/latest/download/termix_android.apk) on your Android device to download the latest version. To download a specific version, visit [GitHub releases](https://github.com/Termix-SSH/Termix/releases).
 
 To those of you who already know how to install APK's, the installation is exactly what you would expect. For those of you who don't, please follow this [guide](https://www.lifewire.com/install-apk-on-android-4177185).
 
