@@ -2,6 +2,9 @@
 
 This guide explains how to configure OpenID Connect (OIDC) authentication in Termix's admin settings to enable external identity provider authentication.
 
+## Notice
+Termix does not associate OIDC user accounts with existing local accounts at this time. External-Local account association via OIDC is currently planned for future development.
+
 ## Overview
 
 OIDC allows users to authenticate using external identity providers (like Google, Microsoft, Okta, Auth0, etc.) instead of local accounts. This provides enhanced security, single sign-on capabilities, and centralized user management.
@@ -146,6 +149,7 @@ Before configuring OIDC, you need:
 - **Authorization URL**: `https://{your-keycloak.domain}/realms/{your_realm_name}/protocol/openid-connect/auth`
 - **Token URL**: `https://{your-keycloak.domain}/realms/{your_realm_name}/protocol/openid-connect/token`
 - **Issuer URL**: `https://{your-keycloak-domain}/realms/{your_realm_name}`
+- **Valid redirect URIs**: `https://termix.{your-domain}/users/oidc/callback`
 - **Scopes**: `openid email profile`
 
 ### Authelia
@@ -212,6 +216,10 @@ identity_providers:
 
 5. **"Failed to get user information" error**
    - Use the `Override User Info URL` field in OIDC configs within Termix. You can find this URL within your providers' config.
+
+6. **"Code and state are required" error**
+   - Proof Key for Code Exchange (PKCE) challenges are currently not supported by Termix
+   - Leave `PKCE Method` field as `Choose...` or otherwise disabled in your relevant SSO client settings
 
 ## Advanced Configuration
 
