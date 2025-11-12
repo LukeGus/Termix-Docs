@@ -14,11 +14,11 @@ Coming within a week.
 
 Click on the download link below for your specific device architecture and desired installation type.
 
-| Architecture | Type          | Download Link                                                                                            |
-| ------------ | ------------- | -------------------------------------------------------------------------------------------------------- |
-| Universal    | DMG           | [Download](https://github.com/Termix-SSH/Termix/releases/latest/download/termix_macos_universal_dmg.dmg) |
-| x64          | DMG           | [Download](https://github.com/Termix-SSH/Termix/releases/latest/download/termix_macos_x64_dmg.dmg)       |
-| arm64        | DMG           | [Download](https://github.com/Termix-SSH/Termix/releases/latest/download/termix_macos_arm64_dmg.dmg)     |
+| Architecture | Type | Download Link                                                                                            |
+| ------------ | ---- | -------------------------------------------------------------------------------------------------------- |
+| Universal    | DMG  | [Download](https://github.com/Termix-SSH/Termix/releases/latest/download/termix_macos_universal_dmg.dmg) |
+| x64          | DMG  | [Download](https://github.com/Termix-SSH/Termix/releases/latest/download/termix_macos_x64_dmg.dmg)       |
+| arm64        | DMG  | [Download](https://github.com/Termix-SSH/Termix/releases/latest/download/termix_macos_arm64_dmg.dmg)     |
 
 ## Support
 
