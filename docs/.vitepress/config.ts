@@ -55,6 +55,7 @@ export default defineConfig({
                 ],
               },
               { text: "Contributing", link: "/contributing" },
+              { text: "Features", link: "/features" },
             ],
           },
           {
