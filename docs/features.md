@@ -1,5 +1,5 @@
 # Features
-General how-to for some of the less obvious Termix features
+General how-to for some of the Termix features.
 
 ## Admin Settings
 On an admin user, click on your username on the bottom left, then click `Admin Settings`.
@@ -25,14 +25,20 @@ Configure a host with Server Stats enabled in `Host Manager` then visit the `Ser
 ## Export/Import
 Visit the `Admin Settings` and go to the `Database` tab.
 
+## SSH Tunnel
+Configure a host with Terminal enabled in `Host Manager` then click the `>_` icon from the `Left Sidebar`.
+
 ## SSH Tunnels
 Configure a host with a tunnel configured in `Host Manager` then visit the `Server Details` option on a host when connecting to it from the `Left Sidebar`. See [tunnels](https://docs.termix.site/tunnels) for more.
 
-## File Manager
+## SSH File Manager
 Configure a host with File Manager enabled in `Host Manager` then visit the `File Manager` option on a host when connecting to it from the `Left Sidebar`. The file manager only works on common Linux based hosts.
 
 ## Command Palette
 Double tap `Left Shift` to open.
+
+## SSL Cert Generation
+See [SSL](https://docs.termix.site/ssl).
 
 ## Support
 
