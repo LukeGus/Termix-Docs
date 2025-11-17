@@ -4,7 +4,7 @@
 
 ### Chocolatey
 
-Coming within a week.
+Coming soon.
 
 ### GitHub Releases
 

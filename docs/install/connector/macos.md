@@ -4,11 +4,11 @@
 
 ### Apple App Store
 
-Coming within a week.
+Coming soon.
 
 ### Homebrew
 
-Coming within a week.
+Coming soon.
 
 ### GitHub Releases
 
