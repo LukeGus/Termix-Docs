@@ -1,6 +1,6 @@
 # Security
-Please report any vulnerabilities to [GitHub Security](https://github.com/Termix-SSH/Termix/security/advisories).
 
+Please report any vulnerabilities to [GitHub Security](https://github.com/Termix-SSH/Termix/security/advisories).
 
 ## Authentication
 
@@ -41,6 +41,7 @@ Modeled partially after [Nextcloud](https://docs.nextcloud.com/server/21/admin_m
 ### Overview
 
 It consists of two main parts:
+
 1.  **Database File Encryption**: The entire SQLite database file is encrypted on your disk.
 2.  **Field-Level Encryption**: Specific sensitive fields within the database are individually encrypted using a user-specific key.
 
@@ -55,10 +56,10 @@ It consists of two main parts:
 
 - **User-Specific Keys**: Each user has their own Data Encryption Key (DEK). This DEK is what encrypts the sensitive data.
 - **KEK/DEK Architecture**:
-    1.  A user's password is used to derive a Key-Encrypting Key (KEK) via PBKDF2.
-    2.  This KEK is used to encrypt the user's DEK.
-    3.  The encrypted DEK is stored in the database.
-    4.  When a user logs in, their password unlocks the KEK, which decrypts the DEK. The DEK is then held securely in memory for the duration of the session.
+  1.  A user's password is used to derive a Key-Encrypting Key (KEK) via PBKDF2.
+  2.  This KEK is used to encrypt the user's DEK.
+  3.  The encrypted DEK is stored in the database.
+  4.  When a user logs in, their password unlocks the KEK, which decrypts the DEK. The DEK is then held securely in memory for the duration of the session.
 - **Field Encryption**: Sensitive fields (defined in `field-crypto.ts`) are encrypted with the user's DEK using AES-256-GCM. A unique key is derived for each specific field using HKDF, incorporating the user's DEK, a random salt, the record's ID, and the field name.
 
 ### Keys
