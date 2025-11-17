@@ -12,7 +12,7 @@ Once installed and opened, follow the on-screen guide to connect to your existin
 
 ### GitHub Releases
 
-Click on [this link](https://github.com/Termix-SSH/Termix/releases/latest/download/termix_android.apk) on your Android device to download the latest version. To download a specific version, visit [GitHub releases](https://github.com/Termix-SSH/Termix/releases).
+Click on [this link](https://github.com/Termix-SSH/Mobile/releases/latest/download/termix_android.apk) on your Android device to download the latest version. To download a specific version, visit [GitHub releases](https://github.com/Termix-SSH/Mobile/releases).
 
 To those of you who already know how to install APK's, the installation is exactly what you would expect. For those of you who don't, please follow this [guide](https://www.lifewire.com/install-apk-on-android-4177185).
 

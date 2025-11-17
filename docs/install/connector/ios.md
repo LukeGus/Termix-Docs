@@ -12,7 +12,7 @@ Once installed and opened, follow the on-screen guide to connect to your existin
 
 ### GitHub Releases
 
-Click on [this link](https://github.com/Termix-SSH/Termix/releases/latest/download/termix_ios.ipa) on your Apple device to download the latest version. To download a specific version, visit [GitHub releases](https://github.com/Termix-SSH/Termix/releases).
+Click on [this link](https://github.com/Termix-SSH/Mobile/releases/latest/download/termix_ios.ipa) on your Apple device to download the latest version. To download a specific version, visit [GitHub releases](https://github.com/Termix-SSH/Mobile/releases).
 
 You can then sideload the app as usual. I recommend you use [AltStore](https://faq.altstore.io/) for sideloading.
 
