@@ -2,9 +2,6 @@
 
 This guide explains how to configure OpenID Connect (OIDC) authentication in Termix's admin settings to enable external identity provider authentication.
 
-## Notice
-Termix does not associate OIDC user accounts with existing local accounts at this time. External-Local account association via OIDC is currently planned for future development.
-
 ## Overview
 
 OIDC allows users to authenticate using external identity providers (like Google, Microsoft, Okta, Auth0, etc.) instead of local accounts. This provides enhanced security, single sign-on capabilities, and centralized user management.
@@ -222,6 +219,10 @@ identity_providers:
    - Leave `PKCE Method` field as `Choose...` or otherwise disabled in your relevant SSO client settings
 
 ## Advanced Configuration
+
+### Linking Local/OIDC Account
+
+Using an admin account, visit `Admin Settings` and click on the blue chain icon on a OIDC host, then enter the username of the local account. The link can be removed with the orange chain icon on a linked local account.
 
 ### Multiple OIDC Providers
 
